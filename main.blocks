@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="_V;2C+?Q/34|RUr#UL1K">숫자</variable></variables><block type="device_button_event" id="DX|o#$9]TVmtV#qhL^[v" x="66" y="-244"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_change" id=".3dK9g%m41*_/50.2jBK"><field name="VAR" id="_V;2C+?Q/34|RUr#UL1K">숫자</field><value name="VALUE"><shadow type="math_number" id="xi0~+j.CvNhMo5~Ik4Gr"><field name="NUM">1</field></shadow></value></block></statement></block><block type="controls_if" id="H1FzMbc:71?a20wY-l,7" disabled="true" x="349" y="-252"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="P!O@C3UIUNZFNK~axW_R" disabled="true"><field name="OP">NEQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="i!c9F|p2f#ZchE}GdZdT" disabled="true"><field name="VAR" id="_V;2C+?Q/34|RUr#UL1K">숫자</field></block></value><value name="B"><shadow type="math_number" id="U:G5btZ}DcIY5BR0,hE2" disabled="true"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="Gy?DLt(Eg)]63$MjZwk0" disabled="true"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="t:pDrlL.J|tiFYj7hrAG" disabled="true"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement><statement name="DO1"><block type="device_show_leds" id="3G,pg,pig(ma}$R:h0?k" disabled="true"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="+^AHTR!PqZU{vd:]n^kx" disabled="true"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="pxt-on-start" id="H5YY-hqbZDSdy6/;Q0xn" x="0" y="0"><statement name="HANDLER"><block type="device_clear_display" id=";`IL_;#=B=qu+3Nt/+[j"><next><block type="variables_set" id="2H:K%sQ$6;{=SadMuM?;"><field name="VAR" id="_V;2C+?Q/34|RUr#UL1K">숫자</field><value name="VALUE"><shadow type="math_number" id="HLx2Q|XIw~+PlyxSY[U~"><field name="NUM">0</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="?nCT@Bmo]`@}rb+pl21z" x="765" y="-2"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="variables_change" id="#1@AK|{FhDxnptb35Bgk"><field name="VAR" id="_V;2C+?Q/34|RUr#UL1K">숫자</field><value name="VALUE"><shadow type="math_number" id="!S7}!vr53Nj|y*4Ld-Kw"><field name="NUM">-1</field></shadow></value></block></statement></block><block type="device_forever" id="5xgqAkhv5GzD?8a,eRUG" x="716" y="99"></block><block type="variables_get" id="8,9yth2ZCK)|^0?{!EL[" disabled="true" x="446" y="248"><field name="VAR" id="_V;2C+?Q/34|RUr#UL1K">숫자</field></block></xml>
